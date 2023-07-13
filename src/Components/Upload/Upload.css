@@ -1,0 +1,19 @@
+input[type='file'] {
+  display: none;
+}
+
+.upload__image {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.upload__image > p {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+}

@@ -1,0 +1,19 @@
+/* should set margin: 0 as below to reset all the default margins */
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__header {
+  background-color: white;
+  padding: 20px;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+}
+
+.app__headerImage {
+  height: 65px;
+}
